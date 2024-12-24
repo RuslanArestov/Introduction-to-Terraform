@@ -6,7 +6,9 @@
 
 4. Отсутствие наименования у resource "docker_image", значение переменной name resource "docker_container" "1nginx" неправильно задано.
 
-5. ![Alt text](https://github.com/RuslanArestov/Introduction-to-Terraform/blob/master/images/5.png)
+5. 
+
+![Alt text](https://github.com/RuslanArestov/Introduction-to-Terraform/blob/master/images/5.png)
 
 6. Ключ -auto-approve позвояляет автоматизировать процеес запуска инфраструктуры. Опасность: специалист не видит изменения, которые применяются в инфраструктуре.
 
