@@ -6,13 +6,16 @@
 
 4. Отсутствие наименования у resource "docker_image", значение переменной name resource "docker_container" "1nginx" неправильно задано.
 
-5. ![Alt text](https://github.com/RuslanArestov/Introduction-to-Terraform/blob/master/images/5.jpg)
+5. ![Alt text](https://github.com/RuslanArestov/Introduction-to-Terraform/blob/master/images/5.png)
 
 6. Ключ -auto-approve позвояляет автоматизировать процеес запуска инфраструктуры. Опасность: специалист не видит изменения, которые применяются в инфраструктуре.
 
-![Alt text](https://github.com/RuslanArestov/Introduction-to-Terraform/blob/images/master/6.jpg)
+![Alt text](https://github.com/RuslanArestov/Introduction-to-Terraform/blob/master/images/6.png)
+            
+7. 
 
-7. ```{
+```
+{
   "version": 4,
   "terraform_version": "1.10.2",
   "serial": 11,
@@ -20,7 +23,8 @@
   "outputs": {},
   "resources": [],
   "check_results": null
-}```
+}
+```
 
 8. Сохранился их-за параметра keep_locally = true
 
